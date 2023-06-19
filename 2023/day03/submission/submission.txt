@@ -1,0 +1,26 @@
+1. To view what's written in a file.
+=>cat
+
+2. To change the access permissions of files.
+=>chmod
+3. To check which commands you have run till now.
+=>history
+4. To remove a directory/ Folder.
+=>rmdir
+5. To create a fruits.txt file and to view the content.
+vim fruits.txt
+6. Add content in devops.txt (One in each line) - Apple, Mango, Banana, 
+Cherry, Kiwi, Orange, Guava.
+vim fruits.txt
+=>vim devops.txt and add fruits name one by one
+
+7. To Show only top three fruits from the file.
+=>cat devops.txt | head -3
+8. To Show only bottom three fruits from the file.
+cat devops.txt | tail -3
+9. To create another file Colors.txt and to view the content.
+=>vim Colors.txt and add colors names one by one and cat Colors.txt to view the content
+10. Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
+
+11. To find the difference between fruits.txt and Colors.txt file.
+=>diff fruits.txt colors.txt 
